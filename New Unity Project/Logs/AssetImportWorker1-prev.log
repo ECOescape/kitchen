@@ -1,0 +1,358 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.25f1 (68ef2c4f8861) revision 6876972'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'ko' Physical Memory: 8032 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2021.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/New Unity Project
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50140
+Successfully changed project path to: D:/New Unity Project
+D:/New Unity Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [11972] Host "[IP] 192.168.40.16 [Port] 0 [Flags] 2 [Guid] 353180039 [EditorId] 353180039 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IUVOSN2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [11972] Host "[IP] 192.168.40.16 [Port] 0 [Flags] 2 [Guid] 353180039 [EditorId] 353180039 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IUVOSN2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 166.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
+[Subsystems] Discovering subsystems at path D:/Unity/2021.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/New Unity Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   NVIDIA
+    VRAM:     3964 MB
+    Driver:   26.21.14.4614
+Initialize mono
+Mono path[0] = 'D:/Unity/2021.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2021.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2021.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.133797 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 645 ms
+Refreshing native plugins compatible for Editor in 113.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.035 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3036ms)
+		BeginReloadAssembly (728ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1984ms)
+			LoadAssemblies (748ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (413ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (1412ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (894ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (113ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (234ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.016400 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.821 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2822ms)
+		BeginReloadAssembly (253ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (2185ms)
+			LoadAssemblies (870ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (482ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (100ms)
+			SetupLoadedEditorAssemblies (712ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (129ms)
+				ProcessInitializeOnLoadAttributes (507ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.34 seconds
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3305 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (332.1 KB). Loaded Objects now: 3772.
+Memory consumption went from 128.3 MB to 128.0 MB.
+Total: 5.487700 ms (FindLiveObjects: 0.484100 ms CreateObjectMapping: 0.485500 ms MarkObjects: 4.319700 ms  DeleteObjects: 0.197000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2238.462672 seconds.
+  path: Assets/StudioBillion/House Interior/Scenes/House Interior.unity
+  artifactKey: Guid(261548a5f5662c441ab881817b638867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioBillion/House Interior/Scenes/House Interior.unity using Guid(261548a5f5662c441ab881817b638867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f74119ea3ee6f09d0325a8f29434e44') in 0.031311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/StudioBillion/House Interior/Materials/BLU.4.mat
+  artifactKey: Guid(6bf71702b77df4f4ebf1f88c66dde8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioBillion/House Interior/Materials/BLU.4.mat using Guid(6bf71702b77df4f4ebf1f88c66dde8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e790d20cecd53f25a02298347c51fd09') in 0.631602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/StudioBillion/House Interior/Materials/GRN.1.mat
+  artifactKey: Guid(04fbe7f51862d4f4cb50dc4e04be8f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioBillion/House Interior/Materials/GRN.1.mat using Guid(04fbe7f51862d4f4cb50dc4e04be8f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dca642739aaf52bbc612b0742e0563b') in 0.043768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/StudioBillion/House Interior/Materials/drum_stool_gray.mat
+  artifactKey: Guid(b1f6e8319ff09e249a04678e099a3bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioBillion/House Interior/Materials/drum_stool_gray.mat using Guid(b1f6e8319ff09e249a04678e099a3bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fffeeeed8f1b3ce3de2395291c6a3b9e') in 0.050410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/StudioBillion/House Interior/Materials/BRW.009.mat
+  artifactKey: Guid(a7d84194604675b488d819dc7a1520d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioBillion/House Interior/Materials/BRW.009.mat using Guid(a7d84194604675b488d819dc7a1520d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e04ed74527b11d2732b3348092631da') in 0.043540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/StudioBillion
+  artifactKey: Guid(4f35199b0b9b74f4aa59ef5caacef96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioBillion using Guid(4f35199b0b9b74f4aa59ef5caacef96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f434b39f05579f87e7e8ca29c02ed6') in 0.032833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/StudioBillion/House Interior/Materials/drum_stool_red.mat
+  artifactKey: Guid(72dedb50ce30a1948a14444e708334ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioBillion/House Interior/Materials/drum_stool_red.mat using Guid(72dedb50ce30a1948a14444e708334ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28bd4ff5f3e346a320cdf71d684fe0a5') in 0.041897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/StudioBillion/House Interior/Prefabs/Towel.prefab
+  artifactKey: Guid(10a6bc1f9fa8e1545a0996baaa9c5040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioBillion/House Interior/Prefabs/Towel.prefab using Guid(10a6bc1f9fa8e1545a0996baaa9c5040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e7d9698f164eb423ba7af527d2b656') in 0.071885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/StudioBillion/House Interior/Prefabs/Desk.prefab
+  artifactKey: Guid(5e6682d1a65bf7846bde496ef3c96d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioBillion/House Interior/Prefabs/Desk.prefab using Guid(5e6682d1a65bf7846bde496ef3c96d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5692e78a90c50f9612586758f003eb') in 0.040950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/StudioBillion/House Interior/Materials/drum1_gray.mat
+  artifactKey: Guid(84773ff7b7e39bf4d95fbe5ba2466106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioBillion/House Interior/Materials/drum1_gray.mat using Guid(84773ff7b7e39bf4d95fbe5ba2466106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45bbeb7bc973157300150e294778275e') in 0.037412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/StudioBillion/House Interior/Prefabs/Closet.prefab
+  artifactKey: Guid(796e32cd1010d3b4a934bd873c9246c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioBillion/House Interior/Prefabs/Closet.prefab using Guid(796e32cd1010d3b4a934bd873c9246c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf72aad89e55ee9d30920dc1abdc704e') in 0.057355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/StudioBillion/House Interior/Prefabs/Fridge.prefab
+  artifactKey: Guid(49e948fe26356c64e9bccc46963c77da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioBillion/House Interior/Prefabs/Fridge.prefab using Guid(49e948fe26356c64e9bccc46963c77da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eeb4c908bbc64853f5100bdf4bb4ae5') in 0.046554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/StudioBillion/House Interior/Prefabs/Chairs.prefab
+  artifactKey: Guid(c2295b34083ed0c4b95a252933176bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioBillion/House Interior/Prefabs/Chairs.prefab using Guid(c2295b34083ed0c4b95a252933176bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a40a9f56937d823b46579d1d8b04c2') in 0.056776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/StudioBillion/House Interior/Prefabs/Sofa2.prefab
+  artifactKey: Guid(c66afc54088bd0247a66d7e34a36c4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioBillion/House Interior/Prefabs/Sofa2.prefab using Guid(c66afc54088bd0247a66d7e34a36c4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97192a2c900e8954a0e749a03592e4b5') in 0.035583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/StudioBillion/House Interior/Materials/BLU.1.mat
+  artifactKey: Guid(7bacb55ab7d6c6b449e67723a62bfe2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioBillion/House Interior/Materials/BLU.1.mat using Guid(7bacb55ab7d6c6b449e67723a62bfe2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84fe94f31abf6c07965d561954caa593') in 0.037654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/StudioBillion/House Interior/Materials/GRY.4.mat
+  artifactKey: Guid(76f9a3947bc1dd34e9364a2b6a25898b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioBillion/House Interior/Materials/GRY.4.mat using Guid(76f9a3947bc1dd34e9364a2b6a25898b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5736dd2d87f9c5d16e3f2e229c0882e8') in 0.034607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/StudioBillion/House Interior/Prefabs/Pan.prefab
+  artifactKey: Guid(b25277b7e28aa4446a996b11092272d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioBillion/House Interior/Prefabs/Pan.prefab using Guid(b25277b7e28aa4446a996b11092272d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c6cbe10eb3dfa660d75d63d58ed290') in 0.052323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/StudioBillion/House Interior/Prefabs/Bed.prefab
+  artifactKey: Guid(c78b068d06d936540835ce2788ae7bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioBillion/House Interior/Prefabs/Bed.prefab using Guid(c78b068d06d936540835ce2788ae7bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68bf0d53e4afafd2167d9018805ea15a') in 0.043865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/StudioBillion/House Interior/Prefabs/Drum.prefab
+  artifactKey: Guid(bc2e5c63db1c9bb428dbdcc8142205a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioBillion/House Interior/Prefabs/Drum.prefab using Guid(bc2e5c63db1c9bb428dbdcc8142205a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957eee82f834d9ef156bb4d98d5b5818') in 0.043604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/StudioBillion/House Interior/Prefabs/Bath.prefab
+  artifactKey: Guid(dd1310fff69f1cd46974882f047d74c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioBillion/House Interior/Prefabs/Bath.prefab using Guid(dd1310fff69f1cd46974882f047d74c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b78abcba2f47126b016afbe3f454436') in 0.026122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/StudioBillion/House Interior/Prefabs/Kitchen Stuff.prefab
+  artifactKey: Guid(79f1bb7a99cc856419859c0286fe3efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioBillion/House Interior/Prefabs/Kitchen Stuff.prefab using Guid(79f1bb7a99cc856419859c0286fe3efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6eb2dda07c6b19a179dcdae1695c5c') in 0.039949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/StudioBillion/House Interior
+  artifactKey: Guid(6438b0e9b820cf84a9ecf873f382f323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioBillion/House Interior using Guid(6438b0e9b820cf84a9ecf873f382f323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ef549507d66c7efd02fe25aaf1e195') in 0.020341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/StudioBillion/House Interior/Prefabs/House 2.prefab
+  artifactKey: Guid(b3c01bafbe9c8fa4fbd4cd93e0eaad44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioBillion/House Interior/Prefabs/House 2.prefab using Guid(b3c01bafbe9c8fa4fbd4cd93e0eaad44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30762f7c25ccaa87cf5b63fa95f811de') in 0.051220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/StudioBillion/House Interior/Materials/box_brown.mat
+  artifactKey: Guid(0d10351ce92097a4db61d2db7afab59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioBillion/House Interior/Materials/box_brown.mat using Guid(0d10351ce92097a4db61d2db7afab59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5430863591ae0b58bac0d3c238b89438') in 0.037118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/StudioBillion/House Interior/Materials/drum1_yellow.mat
+  artifactKey: Guid(0efac0842e1d2564bb25a00a5bc9845f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioBillion/House Interior/Materials/drum1_yellow.mat using Guid(0efac0842e1d2564bb25a00a5bc9845f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d33b0d0b74cdbe6499a2040b38b3bb2') in 0.043437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/StudioBillion/House Interior/Materials/GRN.5.mat
+  artifactKey: Guid(a4bdbcb83e51cec4ab8eec882b99bd4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioBillion/House Interior/Materials/GRN.5.mat using Guid(a4bdbcb83e51cec4ab8eec882b99bd4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c74e8af745403e2913c72d3d7ed621c') in 0.044642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/StudioBillion/House Interior/Materials/GRY.1.mat
+  artifactKey: Guid(df1617325e4da9a40b123d6a261a35a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioBillion/House Interior/Materials/GRY.1.mat using Guid(df1617325e4da9a40b123d6a261a35a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b3d4efac7411a52b5e54926d90a76b') in 0.043509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/StudioBillion/House Interior/Materials/drum_stool_black.mat
+  artifactKey: Guid(656fee0d2b1483f4c9bfd95155b74d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioBillion/House Interior/Materials/drum_stool_black.mat using Guid(656fee0d2b1483f4c9bfd95155b74d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2d14f77c6a1e0b4934a9f96b75c64c') in 0.045620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/StudioBillion/House Interior/Materials/chair.mat
+  artifactKey: Guid(776cd13fd1cc8ab4a9bc0331176e5c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioBillion/House Interior/Materials/chair.mat using Guid(776cd13fd1cc8ab4a9bc0331176e5c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a746660e9707a9d6a33b17ea28f889c4') in 0.044994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/StudioBillion/House Interior/Prefabs/Cooker.prefab
+  artifactKey: Guid(7474ef2a457c13745bd61cd0af76274f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioBillion/House Interior/Prefabs/Cooker.prefab using Guid(7474ef2a457c13745bd61cd0af76274f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9697576890934811f9fad4ce3650625d') in 0.040611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/StudioBillion/House Interior/Materials/box_white.mat
+  artifactKey: Guid(78d39c66846b9914591d499a71ea15be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioBillion/House Interior/Materials/box_white.mat using Guid(78d39c66846b9914591d499a71ea15be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498891121dffe99ef319ed55ad265a26') in 0.037443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/StudioBillion/House Interior/Models/House.fbx
+  artifactKey: Guid(02ad78cca7f19f843b49a2e580791919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioBillion/House Interior/Models/House.fbx using Guid(02ad78cca7f19f843b49a2e580791919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6325b8d45039a7866126952286386cc9') in 1.548128 seconds 
+AssetImportWorkerClient::OnTransportError - code=10054 error=현재 연결은 원격 호스트에 의해 강제로 끊겼습니다.
